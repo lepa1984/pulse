@@ -1,0 +1,26 @@
+.form{
+    background: url(../img/bg2.jpg) center (center/cover) no-repeat;
+    min-height: 680px;
+    padding: 100px 0 92px 20px;
+    
+    &__title{
+        
+        text-align: left;
+        color: #ffffff;
+        margin: 0;
+       
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+        
+    }
+    &__descr{
+        margin-top: 80px;
+        font-size: 20px;
+        font-weight: 500;
+       
+        text-align: left;
+        color: #ffffff;
+    }
+}

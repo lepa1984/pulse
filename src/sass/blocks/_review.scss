@@ -1,0 +1,47 @@
+.review{
+    padding-bottom: 71px;
+    &__title{
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__people{
+        display: flex;
+        align-items: center;
+           
+        div{
+            flex-direction: column;
+        }
+        img{
+            width: 169px;
+            height: 169px;
+            margin: 70px 60px 0 0;
+        }
+        &_name{
+            margin-top: 70px;
+            font-size: 18px;
+            font-weight: 700;
+            
+            text-align: left;
+            color: #0d0d0d;
+        }
+        &_subtitle{
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 10px;
+            text-align: left;
+            color: #646464;
+        }
+        &_text{
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 19px;
+            text-align: left;
+            color: #0d0d0d;
+        }
+    }
+
+  
+}

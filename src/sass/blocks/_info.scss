@@ -1,0 +1,61 @@
+.info{
+    background-color: #f6f6f6;
+    padding-bottom: 81px;
+    padding-top: 38px;
+    &__title{
+        margin-top: 70px;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0d0d0d;
+        
+        line-height: 30px;
+       
+    }
+    &__subtitle{
+        margin-top: 38px;
+        font-size: 18px;
+        font-weight: 700;
+        
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__text{
+        
+        margin-top: 25px;
+        font-size: 15px;
+        font-weight: 500;
+        span{
+            text-decoration-color: #c70101;
+            text-decoration-line: underline;
+            font-weight: 700;
+            color: #c70101;
+            text-transform: uppercase;
+        }
+        
+        text-align: center;
+        color: #0d0d0d;
+    }
+    &__icons{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__icon{
+        display: block;
+        text-align: center;
+        width: 247px;
+        margin-top: 65px;
+        &_animations{
+            animation-name: heartbit;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+       
+        
+        
+      
+    }
+  
+}

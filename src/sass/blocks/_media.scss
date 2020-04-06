@@ -1,0 +1,203 @@
+@media (max-width : 1199px) {
+    .container{
+        margin: 0;
+        min-width: 100%;
+    }
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+        &__official{
+            margin: 0 20px;
+            display: flex;
+            padding-top: 25px;
+            flex-direction: column;
+        }
+    }
+    .promo{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .carousel{
+        img{
+            width: 75%;
+            margin: 0 auto;
+       
+    }
+    .overlay{
+        
+            margin: 0 auto;
+       
+    }
+    
+}
+
+}
+
+@media (max-width : 767px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+       
+        
+    
+        &__official{
+            margin: 0;
+            display: flex;
+            padding-top: 25px;
+            flex-direction: column;
+            
+        }
+        &__contacts{
+            display: flex;
+            
+            margin-top: 25px;
+           
+        }
+        }
+        .promo{
+            &__wrapper{
+                text-align: center;
+            }
+        }
+    .info{
+        
+        &__icons{
+            
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            
+            
+        }
+    } 
+
+    .form{
+        
+        &__title{
+            text-align: center;
+            font-size: 25px;
+        }    
+        
+        &__descr{
+            
+            text-align: center;
+            font-size: 18px;
+        }
+        .feed-forms{
+            
+            margin: 36px auto;
+        }
+    }  
+    .carousel{
+        img{
+            width: 75%;
+            margin: 0 auto;
+       
+    }
+}
+        .catalog{
+            &__tabs{
+                display: flex;
+                justify-content: space-around;
+            }
+            &__tab_active{
+            font-size: 15px;
+}
+   
+}
+}
+@media  (max-width: 550px){
+    .review{
+        &__people{
+            display: flex;
+            flex-direction: column;
+           
+        }
+    }
+
+.modal{
+      
+    width: 310px;
+    height: 430px;
+  
+    padding: 15px 15px 15px 15px;
+    
+}
+}
+          
+
+@media (max-width : 400px){
+    .header{
+       
+      
+        &__official{
+            
+            width: 178px;
+            span{
+                margin: 0;
+                display: inline;
+                text-align: center;
+            }
+            
+        }
+        &__contacts{
+            justify-content: flex-start;
+            
+        }
+        &__phone{
+            display: flex;
+            display: inline;
+            text-align: center;
+        }
+    }
+    .promo{
+        
+        text-align: center;
+        &__header{
+            font-size: 37px;
+        }
+        &__subheader{
+            font-size: 20px;
+            width: 300px;
+        }
+        &__icons{
+            display: flex;
+       
+            justify-content: center;
+           
+        }
+        &__icon{
+            width: 105px;
+            font-size: 11px;
+        }
+        &__link{
+            text-align: center;
+            a{
+                display: block;
+                width: 200px;
+               
+            }
+        }
+    }
+    .feed-forms{
+        align-items: center;
+    }
+    .catalog{
+        &__tabs{
+        font-size: 12px;
+}
+
+}
+}
+
+
+
+
+
+
+
